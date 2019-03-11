@@ -1,0 +1,403 @@
+body
+  margin: 0
+  padding: 0
+
+code
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace
+
+
+body
+  font-family: 'Montserrat', sans-serif
+  width: 100%
+  height: 100%
+  background-color: #DDDDDD
+  display: flex
+  flex-direction: column
+  justify-content: center
+  align-items: center
+
+
+.mainContainer
+  border: grey solid 1px
+  margin-top: 100pt
+  display: flex
+  flex-direction: column
+  width: 375pt
+  height: 100%
+  background-color: white
+
+.selectedColumn
+  flex-wrap: wrap
+  display: flex
+  flex-direction: row
+  height: 30px
+  padding: 5px
+  padding-left: 15px
+  padding-top: 15px
+  border-bottom: lightgray solid 2px
+
+.selectedColumn>div:first-child
+  color: grey
+  font-weight: 600
+  margin-right: 5px
+
+.removeButton
+  color: black
+
+.selectedColumn>div:after
+  content: ','
+
+.selectedColumn>div:first-child:after
+  content: ''
+
+.selectedColumn>div:last-child:after
+  content: ''
+
+
+.selectedColumn>div:first-child
+  content: ''
+  font-size: 14pt
+
+
+.selectedUsersContainer
+  font-weight: 600
+
+  margin-right: 8px
+  font-size: 14pt
+  color: #48C1C2
+  display: flex
+
+.userRowContainer
+  padding-top: 12pt
+  border-bottom: lightgray solid 1px
+  height: 60pt
+  display: flex
+  flex-direction: row
+  justify-content: space-between
+
+
+.checkbox
+  margin-top: 10pt
+  margin-right: 20pt
+  background-color: #DBE0E6
+  border-radius: 50%
+  width: 28pt
+  height: 28pt
+  cursor: pointer
+  background-position: center
+  background-repeat: no-repeat
+  background-image: url('check.png')
+
+
+
+.checkbox-checked 
+  margin-top: 10pt
+  margin-right: 20pt
+  background-color: #48C1C2
+  border-radius: 50%
+  width: 28pt
+  height: 28pt
+  cursor: pointer
+  background-position: center
+  background-repeat: no-repeat
+  background-image: url('check.png')
+
+
+.userAavatar 
+  margin-left: 16pt
+  border-radius: 50%
+  object-fit: cover
+  width: 48pt
+  height: 48pt
+
+
+.userNameCol 
+  margin-left: -110px
+  margin-top: 5px
+  width: 200px
+  display: flex
+  flex-direction: column
+
+
+.userNameCol>div:first-child 
+  font-size: 16pt
+  font-weight: 600
+  color: #143D76
+  margin-bottom: 3px
+
+
+.userNameCol>div:last-child 
+  font-size: 14pt
+  color: #8598AB
+  font-weight: 600
+
+
+.t2Container 
+  margin-top: 100px
+  width: 600px
+  height: 340px
+  display: flex
+  flex-direction: column
+  justify-content: center
+  background-color: #009788
+  align-items: center
+
+
+.devFace 
+  width: 120px
+  height: 120px
+  border-radius: 100%
+  background-position: center
+  background-repeat: no-repeat
+  background-size: cover
+  background-image: url("https://cdn.cliqueinc.com/cache/posts/167536/5-makeup-tricks-for-girls-with-narrow-faces-167536-main.640x0c.jpg")
+
+
+.aboutDev 
+  display: flex
+  flex-direction: column
+  width: 75%
+  margin-left: 20px
+
+
+
+.aboutDev span:first-child 
+  font-size: 25px
+  font-weight: 300
+
+
+.textGren 
+  margin-top: 2px
+  font-size: 19px
+  font-weight: 400
+  font-style: italic
+  color: #439E91
+
+
+.aboutDev span:last-child 
+  margin-top: 10px
+  font-size: 15px
+  font-weight: 400
+  color: #A5A5A5
+  word-break: break-word
+
+
+
+.secondCard 
+  padding: 5px
+  background-color: #E4E4E4
+  border-bottom-left-radius: 5px
+  border-bottom-right-radius: 5px
+  width: 425px
+  display: flex
+  align-items: center
+  justify-content: center
+
+
+.secondCard>img 
+  margin: 0 5px
+
+
+
+.faceAndTextContainer 
+  display: flex
+  justify-content: center
+  align-items: center
+  width: 700px
+  height: 100px
+  background-color: #E9F4E6
+
+
+
+.faceOuter 
+  width: 100px
+  height: 100px
+  border-radius: 100%
+  background-color: white
+  -webkit-box-shadow: 10px 0px 5px -4px rgba(0,0,0,0.1)
+  -moz-box-shadow: 10px 0px 5px -4px rgba(0,0,0,0.1)
+  box-shadow: 10px 0px 5px -4px rgba(0,0,0,0.1)
+  margin-left: -50px
+  display: flex
+  justify-content: center
+  align-items: center
+
+
+
+
+.faceInner 
+  width: 95px
+  height: 95px
+  border-radius: 100%
+  background-position: center
+  background-repeat: no-repeat
+  background-size: cover
+  background-image: url("https://cdn.cliqueinc.com/cache/posts/167536/5-makeup-tricks-for-girls-with-narrow-faces-167536-main.640x0c.jpg")
+
+
+.Text 
+  display: flex
+  flex-direction: column
+  margin-left: -30px
+
+
+.Text span:first-child
+  color: #949C95
+  font-size: 23px
+  font-weight: 100
+
+
+.Text span:last-child
+  color: #949C95
+  font-size: 11px
+  font-weight: 100
+
+
+.Menu 
+  width: 100px
+  height: 200px
+  display: flex
+  flex-direction: column
+  justify-content: center
+  align-items: center
+
+
+.MenuImage 
+  display: flex
+  justify-content: center
+  width: 50px
+  height: 50px
+
+
+
+
+.headerContainer
+  display: flex
+  height: 80px
+  border-bottom: 2px solid #E5E5E5
+  flex-direction: row
+  justify-content: space-between
+  align-items: center
+  padding: 0 16px
+
+
+
+.contentContainer
+  display: flex
+  flex-direction: column
+
+.mainInfoContainer
+  display: flex
+  flex-direction: row
+  overflow: hidden
+
+.mainImageContainerOuter
+  width: 520px
+  height: 520px
+  border-radius: 100%
+  background-color: #48C5BB
+  margin-top: -100px
+  margin-left: -100px
+  display: flex
+  justify-content: center
+  align-items: center
+
+.mainImageContainerInnerOuter
+  width: 440px
+  height: 440px
+  border-radius: 100%
+  background-color: #605995
+
+  display: flex
+  justify-content: center
+  align-items: center
+
+.mainImageContainerInner
+  width: 360px
+  height: 360px
+  border-radius: 100%
+  background-color: #45406B
+
+  display: flex
+  justify-content: center
+  align-items: center
+
+.mainImageContainerInner>div
+  width: 280px
+  height: 280px
+  border-radius: 100%
+  background-position: center
+  background-repeat: no-repeat
+  background-size: cover
+  background-image: url("https://cdn.cliqueinc.com/cache/posts/167536/5-makeup-tricks-for-girls-with-narrow-faces-167536-main.640x0c.jpg")
+
+
+.distanceContainer
+  display: flex
+  flex: 1
+  flex-direction: column
+  justify-content: center
+  align-items: center
+  opacity: .75
+
+.distanceContainer span:first-child
+  font-size: 60px
+  font-weight: 600
+
+
+.distanceContainer span:last-child
+  font-size: 60px
+  font-weight: 600
+  margin-left: 18px
+
+
+.nameContainer
+  display: flex
+  max-width: 550px
+  width: 100%
+  border-bottom: 2px solid #e5e5e5
+  padding-bottom: 40px
+  margin-top: 40px
+  flex-direction: column
+  align-self: flex-end
+
+.nameContainer>span
+  font-size: 52px
+  font-weight: 600
+  letter-spacing: -3px
+
+.fullInfoContainer
+  display: flex
+  flex-direction: column
+  padding: 15px 90px 60px 90px
+
+.fullInfoContent
+  display: flex
+  flex-direction: row
+  align-items: center
+  margin-top: 25px
+
+.fullInfoContent>span
+  margin-left: 20px
+  font-size: 25px
+  font-weight: 400
+  letter-spacing: -1px
+
+.footerContainer
+  height: 100px
+  display: flex
+  align-items: center
+  justify-content: space-around
+  border-top: 2px solid #e5e5e5
+
+
+
+
+
+
+
+
+
+
+
+
